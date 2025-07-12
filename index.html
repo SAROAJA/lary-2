@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="STYLES.CSS" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        font-family: "Poppins", serif;
+      }
+
+      body {
+        background-color: #3b0632;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem auto;
+        max-width: 1200px;
+      }
+
+      .navigation ul {
+        display: flex;
+        list-style-type: none;
+        gap: 2rem;
+      }
+
+      .navigation a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #eeeeee;
+      }
+
+      .navigation a:hover {
+        color: #8d8ac9;
+      }
+
+      hr {
+        opacity: 0.1;
+      }
+
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5rem auto;
+        max-width: 1200px;
+      }
+
+      .arrow {
+        position: absolute;
+        transform: translateX(-5.5rem) translateY(1.5rem);
+      }
+
+      .herosub {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .name {
+        font-size: 3rem;
+        color: #eeeeee;
+      }
+
+      .heroBtns {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+
+      .hireMe {
+        background-color: rgba(213, 58, 252, 0.345);
+        color: #fefcfc;
+        border-radius: 24px;
+        text-decoration: none;
+        padding: 0.5rem 1.5rem;
+        text-shadow: 0px 4px 4px rgba(19, 17, 19, 0.5);
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <img src="assets/svg/logo.svg" alt="logo" />
+    <nav class="navigation">
+      <ul>
+        <li><a href="#aboutMe">About me</a></li>
+        <li><a href="#contactMe">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr />
+
+  <section class="hero">
+    
+    <div class="herosub">
+      <h1 class="name">*IM LARY*</h1>
+      <div class="heroBtns">
+        <a class="hireMe" href="#contactMe">hire Me</a>
+        <a class="cv" href="assets/Musaab kubbi cv.pdf" download>
+          download cv
+         
+        </a>
+      </div>
+    </div>
+    <img
+      src="IMG/PRNSS.png"
+      alt="hero image"
+      class="heroImg"
+    />
+  </section>
+  <section class="aboutMe" id="aboutMe">
+
+    <img
+    src="IMG/CARCTER.png"
+    alt="aboutMe image"
+    class="aboutMeImg"
+    />
+    <div class="textContaner">
+    <div class="textitle">
+    <h1 class="aboutName">About me</h1>
+    
+    
+    </div>
+<p class="aboutMepar">
+  Hi, My Name Is Fatima.
+  I Can Program in The... <br/>
+ * python <br/>
+ *html <br/>
+ *css <br/>
+ This website is programmed in(html - css) <br/>
+</p>
+
+     
+    </div>
+    
+  </section>
+ <section class="contactcontainer" id="contactMe">
+ <div class="contentTitle">
+  <h1 class="aboutName">Contact me</h1>
+ </div>
+ <div class="contact">
+  <div class="email">
+    <img src="assets/svg/Email.svg" alt="email logo" />
+  <a href="mailto:ftwshh061@gmail.com"
+  ><h3>ftwshh061@gmail.com</h3></a
+  >  
+  </div>
+
+   </div>
+ </section>
+ <hr />
+ <footer class="footer">
+  <p>Built by fatosh</p>
+ </footer>
+ ><hr>
+ git add .
+git commit -m "تعديلات جديدة"
+git push
+
+</body>
+</html>
+
